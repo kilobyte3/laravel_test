@@ -1,0 +1,105 @@
+#dates .fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 1.5em;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 100;
+}
+#dates .fc .fc-scrollgrid-section-header.fc-scrollgrid-section-sticky>* {
+  top: 40px;
+}
+
+.home_calendar_receptiontime
+{
+    background-color: #C1FFC1;
+}
+
+.home_calendar_reservationtime
+{
+    background-color: #FFC1C2;
+}
+
+#dates
+{
+    display: flex;
+}
+
+#receptionDates
+{
+    width: 15%;
+    background-color: #C1FFC1;
+    min-width: 220px;
+}
+#receptionDates li
+{
+    padding: 6px 0 6px 16px;
+    margin-right: 12px;
+    background: rgb(176,255,176);
+    background: linear-gradient(180deg, rgba(176,255,176,1) 0%, rgba(229,255,229,1) 100%);
+}
+#receptionDates h2
+{
+    padding: 4px;
+    margin: 0;
+    text-align: center;
+    background-color: #91FF91;
+}
+#allReceptionDatesList
+{
+    font-size: 12px;
+    padding: 12px 0 0 16px;
+    margin: 0;
+}
+
+#receptionDatesSticky
+{
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    overflow-y: auto;
+}
+
+#calendar
+{
+    width: 65%;
+}
+
+#allReservations
+{
+    width: 20%;
+    background-color: #FFC1C2;
+    min-width: 280px;
+}
+#allReservations li
+{
+    padding: 6px 0 6px 16px;
+    margin-right: 12px;
+    background: rgb(241,203,203);
+    background: linear-gradient(180deg, rgba(241,203,203,1) 0%, rgba(255,222,222,1) 100%);
+}
+#allReservations h2
+{
+    padding: 4px;
+    margin: 0;
+    text-align: center;
+    background-color: #FF919E;
+}
+#allReservationsList
+{
+    font-size: 12px;
+    padding: 12px 0 0 16px;
+    margin: 0;
+}
+
+#allReservationsSticky
+{
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    overflow-y: auto;
+}
+
+.delete_reservation
+{
+    text-decoration: none;
+}
